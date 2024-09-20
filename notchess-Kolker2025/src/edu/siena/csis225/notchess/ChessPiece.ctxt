@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=ChessPiece
+comment0.text=\r\n\ abstract\ chessPiece\ class\ that\ represents\ a\ general\ chess\ piece\ on\ the\ chess\ board.\ \r\n\ \r\n\ @author\ Ira\ Goldstein\ (framework)\r\n\ @author\ David\ Talone\ and\ Christian\ Kolker\r\n\ @verion\ Spring\ 2023\r\n
+comment1.params=button
+comment1.target=void\ changeButton(myButton)
+comment1.text=\r\n\ method\ to\ change\ the\ button\ that\ the\ piece\ is\ on.\ Used\ when\ a\ move\ is\ being\ made\r\n\ \r\n\ @param\ button\ |\ button\ to\ move\ the\ chesspiece\ to\ \r\n
+comment2.params=
+comment2.target=void\ run()
+comment3.params=start\ end\ board
+comment3.target=java.lang.Boolean\ validMove(myButton,\ myButton,\ myButton[][])
+comment4.params=start\ board
+comment4.target=boolean\ canTake(myButton,\ myButton[][])
+numComments=5

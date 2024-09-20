@@ -1,0 +1,4 @@
+#BlueJ class context
+comment0.target=Pieces
+comment0.text=\r\n\ Enumerated\ Pieces\ type\:\r\n\ \r\n\ P\ -\ pawn\r\n\ R\ -\ rook\r\n\ N\ -\ knight\r\n\ B\ -\ Bishop\r\n\ Q\ -\ queen\r\n\ K\ -\ King\r\n\r\n\ @author\ David\ Talone\ and\ Christian\ Kolker\r\n\ @version\ Spring\ 2023\r\n
+numComments=1

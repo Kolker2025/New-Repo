@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Bishop
+comment0.text=\r\n\ Bishop\ ChessPiece\ with\ attributes\ \ \r\n\r\n\ @author\ David\ Talone\ and\ Christian\ Kolker\r\n\ @version\ Spring\ 2023\r\n
+comment1.params=type\ color\ position\ container\ button
+comment1.target=Bishop(java.lang.String,\ java.awt.Color,\ java.awt.Point,\ javax.swing.JComponent,\ myButton)
+comment1.text=\r\n\ Bishop\ constructor.\ \r\n\ \r\n\ @param\ type\ |\ String\ with\ denotes\ the\ type\ of\ the\ ChessPiece\ \:\ "B"\r\n\ @param\ color\ |\ Color\ of\ piece\ \:\ white\ or\ black\r\n\ @param\ position\ |\ starting\ position\ of\ the\ Bishop\ as\ a\ Point\ object\r\n\ @param\ container\ |\ JComponent\ object\ to\ tell\ Bishop\ what\ container\ the\ Bishop\ lives\ in\r\n\ @param\ button\ |\ myButton\ object\ that\ the\ Bishop\ is\ currently\ on\r\n
+comment2.params=start\ end\ board
+comment2.target=java.lang.Boolean\ validMove(myButton,\ myButton,\ myButton[][])
+comment2.text=\r\n\ method\ to\ tell\ if\ two\ button\ presses\ is\ a\ valid\ move\ that\ the\ Bishop\ has\ available.\ \r\n\ \r\n\ @param\ start\ |\ the\ button\ that\ the\ Bishop\ is\ currently\ on\r\n\ @param\ end\ |\ the\ button\ that\ the\ Bishop\ may\ move\ to\ \r\n\ @param\ board\ |\ all\ of\ the\ buttons\ on\ the\ chess\ board\r\n\ \r\n\ @return\ Boolean\ denoting\ if\ the\ move\ from\ start\ button\ to\ end\ button\ is\ a\ valid\ move\r\n
+comment3.params=start\ board
+comment3.target=boolean\ canTake(myButton,\ myButton[][])
+comment3.text=\r\n\ method\ to\ check\ if\ the\ Bishop\ can\ take\ a\ opposing\ piece\ \r\n\ \r\n\ @param\ start\ |\ the\ button\ that\ the\ Bishop\ is\ currently\ on\r\n\ @param\ board\ |\ all\ of\ the\ buttons\ on\ the\ chess\ board\r\n\ \r\n\ @return\ boolean\ value\ to\ tell\ if\ the\ Bishop\ can\ take\ an\ opposing\ piece\r\n
+comment4.params=
+comment4.target=void\ run()
+numComments=5
